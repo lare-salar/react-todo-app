@@ -14,8 +14,8 @@
     "recompose": "^0.23.5"
   },
   "scripts": {
-    "start": "react-scripts start --watchAll=false --passWithNoTests",
-    "build": "react-scripts build --watchAll=false --passWithNoTests",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test --watchAll=false --passWithNoTests",
     "eject": "react-scripts eject"
   }
